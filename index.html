@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Smokypod Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 36px;
+        }
+        header img {
+            width: 150px; /* Встанови розмір логотипу */
+            margin-bottom: 15px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .product {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 45%; /* Встановлюємо ширину кожного товару, щоб вони були в 2 колонки */
+            box-sizing: border-box;
+        }
+        .product h2 {
+            margin-top: 0;
+        }
+        .price {
+            font-size: 22px;
+            color: #008800;
+            font-weight: bold;
+        }
+        button {
+            padding: 10px 20px;
+            background: #008800;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background: #006600;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Логотип і назва магазину -->
+        <img src="logo.png" alt="Smokypod Hub"> <!-- img src="logo.png" alt="Smokypod Hub" -->
+        <div>Smokypod Hub</div> <!-- spokypod hub -->
+    </header>
+
+    <div class="container">
+
+        <div class="product">
+            <h2>Жижа Elf Liq</h2>
+            <p>60 мл • 3 мг</p>
+            <p class="price">250 грн</p>
+            <button>Замовити</button>
+        </div>
+
+        <div class="product">
+            <h2>Жижа Chaser</h2>
+            <p>60 мл • 6 мг</p>
+            <p class="price">250 грн</p>
+            <button>Замовити</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
